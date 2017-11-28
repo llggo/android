@@ -1,0 +1,16 @@
+{
+  "name": "qrcode-gen-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "adbkit": "^2.11.0",
+    "http-proxy": "^1.16.2"
+  },
+  "devDependencies": {}
+}

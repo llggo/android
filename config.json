@@ -1,0 +1,25 @@
+{
+    "proxy":{
+        "enable": true,   
+        "port":"1992",                        
+        "to_android": true                    
+    },
+    "android":{
+        "screen":{
+            "enable": true,
+            "auto_on":false,                   
+            "auto_off":false,                  
+            "auto_unlock": true,              
+            "passcode":""                     
+        },
+        "launcher":{
+            "enable": true,
+            "pkg":"vn.miraway.lgo.launcher",   
+            "activity":"MainActivity",         
+            "auto_start": true,                
+            "auto_install": true,             
+            "apk":"./files/android/apk/launcher.apk" 
+        },
+        "mq_address":"http://miraway.vn"
+    }
+}
